@@ -1,13 +1,13 @@
 {
   "name": "vue-toast-lw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main":"./dist/toast.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-lib": "vue-cli-service build --target lib --name toast ./src/components/toast/index.js"
+    "build-lib": "vue-cli-service build --target lib --name toast ./packages/index.js"
   },
   "author":"webharry",
   "dependencies": {
